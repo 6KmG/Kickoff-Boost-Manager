@@ -7,7 +7,7 @@ std::shared_ptr<CVarManagerWrapper> _globalCvarManager;
 
 // A plugin-level variable to hold the desired boost amount (as a percentage)
 float kickoffBoostValue = 33.33f;
-bool boostSetterEnabled = true; // Variable to toggle the boost functionality
+bool boostSetterEnabled = false; // Variable to toggle the boost functionality
 
 void BoostOnKickoff::onLoad()
 {
